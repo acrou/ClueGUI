@@ -236,32 +236,28 @@ public class Board extends JPanel {
 
 	}
 	public void paintComponent(Graphics g){
-		BoardCell b = getCellAt(0);
 		super.paintComponent(g);
-		int x=0, y=0;
+		int x=20, y=20, count = 0;
 		g.setColor(Color.BLUE);
-		for (int i = 0; i < numRows; i++){
-			for (int j = 0; j < numColumns; j++){
+			for (BoardCell b : cells){
 				if (b.isWalkway() == true){
 					g.setColor(Color.BLACK);
 					g.drawRect(x, y, 20, 20);
 					g.setColor(Color.YELLOW);
 					g.fillRect(x, y, 20, 20);
-					System.out.println("Walkway");
 				}
-				if (b.isRoom() == true){
+				else if (b.isRoom() == true){
 					g.setColor(Color.GRAY);
 					g.drawRect(x, y, 20, 20);
 					g.fillRect(x, y, 20, 20);
-					System.out.println("Room");
 				}
 				x += 20;
-				b = getCellAt(i*23+j);
-				System.out.println(i*23+j);
+				count++;
+				if (count%(numColumns-1)==0){
+					y+=20;
+					x = 20;
+				}
 			}
-			y+=20;
-			x = 0;
-		}
 		
 	}
 
