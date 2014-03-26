@@ -240,17 +240,18 @@ public class Board extends JPanel {
 		int x=20, y=20, count = 0;
 		g.setColor(Color.BLUE);
 			for (BoardCell b : cells){
-				if (b.isWalkway() == true){
-					g.setColor(Color.BLACK);
-					g.drawRect(x, y, 20, 20);
-					g.setColor(Color.YELLOW);
-					g.fillRect(x, y, 20, 20);
-				}
-				else if (b.isRoom() == true){
-					g.setColor(Color.GRAY);
-					g.drawRect(x, y, 20, 20);
-					g.fillRect(x, y, 20, 20);
-				}
+	//			if (b.isWalkway() == true){
+//					g.setColor(Color.BLACK);
+//					g.drawRect(x, y, 20, 20);
+//					g.setColor(Color.YELLOW);
+//					g.fillRect(x, y, 20, 20);
+//				}
+//				else if (b.isRoom() == true){
+//					g.setColor(Color.GRAY);
+//					g.drawRect(x, y, 20, 20);
+//					g.fillRect(x, y, 20, 20);
+//				}
+                b.draw(g, this, x, y);
 				x += 20;
 				count++;
 				if (count%(numColumns-1)==0){

@@ -1,3 +1,4 @@
+import java.awt.*;
 
 public abstract class BoardCell {
     // Values are for the to-be-created draw function
@@ -40,6 +41,7 @@ public abstract class BoardCell {
             return true;
         return false;
     }
+    public abstract void draw(Graphics g, Board b, int x, int y);
 
 
     // future draw function here

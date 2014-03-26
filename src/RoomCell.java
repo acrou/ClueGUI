@@ -1,4 +1,4 @@
-
+import java.awt.*;
 
 public class RoomCell extends BoardCell {
 
@@ -74,4 +74,10 @@ public class RoomCell extends BoardCell {
 
     }
 
+    @Override
+    public void draw(Graphics g, Board b, int x, int y) {
+        g.setColor(Color.GRAY);
+        g.drawRect(x, y, 20, 20);
+        g.fillRect(x, y, 20, 20);
+    }
 }
