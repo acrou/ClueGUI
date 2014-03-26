@@ -1,4 +1,7 @@
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Graphics;
+
+
 
 public class RoomCell extends BoardCell {
 
@@ -73,11 +76,12 @@ public class RoomCell extends BoardCell {
 
 
     }
-
     @Override
-    public void draw(Graphics g, Board b, int x, int y) {
-        g.setColor(Color.GRAY);
-        g.drawRect(x, y, 20, 20);
-        g.fillRect(x, y, 20, 20);
+    public void draw(Graphics g) {
+      g.setColor(Color.PINK);
+      g.drawRect(getColumn()*20, getRow()*20, 20, 20);
+       g.fillRect(getColumn()*20, getRow()*20, 20, 20);
+        g.drawString("BLAH RC", 20, 20);
     }
+
 }

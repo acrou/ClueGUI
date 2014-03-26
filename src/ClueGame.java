@@ -1,4 +1,3 @@
-import com.sun.deploy.panel.JavaPanel;
 import sun.tools.jar.resources.jar_ko;
 
 import java.awt.*;
@@ -93,7 +92,7 @@ public class ClueGame extends JFrame {
 
     public Map<Card.CardType, Integer> getNumTypes() {
 
-          return numTypes;
+        return numTypes;
     }
 
     /**
@@ -298,19 +297,29 @@ public class ClueGame extends JFrame {
     public boolean isCorrectSolution(Solution accusation) {
         return solution.equals(accusation);
     }
-    public static void main(String[] args) throws FileNotFoundException {
-        Board b = new Board();
-        ClueGame frame = new ClueGame(b);
-        frame.setSize(500, 600);
-        frame.setTitle("Game");
-        frame.add(new Board());
-        DetectiveNotes dn = new DetectiveNotes();
-        Container c = frame.getContentPane();
-         DetectiveNotes notes = new DetectiveNotes();
-        notes.setVisible(true);
-        c.add(notes);
-       frame.add(c, BorderLayout.SOUTH);
-        frame.setVisible(true);
+    public ArrayList<String> getWeapons(){
+        return weapons;
+    }
+    public ArrayList<Player> getPeople(){
+        return players;
     }
 
+    public static void main(String[] args) throws FileNotFoundException {
+        Board b = new Board();
+
+        ClueGame frame = new ClueGame(b);
+        frame.setSize(1000, 600);
+        frame.setTitle("Game");
+     //   frame.add(b);
+       // DetectiveNotes dn = new DetectiveNotes(frame);
+        Container c = frame.getContentPane();
+        DetectiveNotes notes = new DetectiveNotes(frame);
+        JPanel thePanel = new JPanel();
+        c.add(thePanel);
+      //  notes.setVisible(true);
+       c.add(b);
+     //   frame.add(b, BorderLayout.CENTER);
+//        frame.add(c, BorderLayout.SOUTH);
+        frame.setVisible(true);
+    }
 }

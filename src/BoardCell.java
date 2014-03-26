@@ -41,7 +41,7 @@ public abstract class BoardCell {
             return true;
         return false;
     }
-    public abstract void draw(Graphics g, Board b, int x, int y);
+    public abstract void draw(Graphics g);
 
 
     // future draw function here
