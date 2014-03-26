@@ -45,6 +45,7 @@ public class Board extends JPanel {
 		loadConfigFiles();
 		calcAdjacencies();
 		visited = new boolean[numRows*numColumns];
+       // paintComponent();
 	}
 
 	public void loadConfigFiles() {

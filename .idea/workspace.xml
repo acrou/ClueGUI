@@ -64,19 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="weapons.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weapons.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="7" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="6" selection-start="7624" selection-end="7624" vertical-scroll-proportion="0.0" vertical-offset="3907" max-vertical-offset="4505">
+            <state line="247" column="33" selection-start="7801" selection-end="7801" vertical-scroll-proportion="0.0" vertical-offset="3893" max-vertical-offset="4522">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +87,7 @@
       <file leaf-file-name="ClueGame.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ClueGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="693" selection-end="693" vertical-scroll-proportion="0.53177255" vertical-offset="107" max-vertical-offset="5117">
+            <state line="308" column="1" selection-start="9323" selection-end="9323" vertical-scroll-proportion="0.6020067" vertical-offset="4655" max-vertical-offset="5253">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,11 +95,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameSetupTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameSetupTests.java">
+      <file leaf-file-name="ClueGameRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClueGameRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+            <state line="7" column="3" selection-start="189" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Container.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/Container.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1083" column="0" selection-start="42861" selection-end="42861" vertical-scroll-proportion="0.0" vertical-offset="17090" max-vertical-offset="82008">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetectiveNotes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DetectiveNotes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="67" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="1700">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1485#1493#0" expanded="true" />
+                <element signature="e#1836#1844#0" expanded="true" />
+                <element signature="e#2184#2192#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,17 +165,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClueGameRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClueGameRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -179,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/ComputerPlayer.java" />
         <option value="$PROJECT_DIR$/src/ClueGameRunner.java" />
         <option value="$PROJECT_DIR$/src/Card.java" />
-        <option value="$PROJECT_DIR$/src/ClueGame.java" />
         <option value="$PROJECT_DIR$/src/GameSetupTests.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/GameActionTests.java" />
@@ -188,6 +192,8 @@
         <option value="$PROJECT_DIR$/src/BoardCell.java" />
         <option value="$PROJECT_DIR$/src/WalkwayCell.java" />
         <option value="$PROJECT_DIR$/src/Board.java" />
+        <option value="$PROJECT_DIR$/src/DetectiveNotes.java" />
+        <option value="$PROJECT_DIR$/src/ClueGame.java" />
       </list>
     </option>
   </component>
@@ -738,15 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClueGameRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameSetupTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
@@ -791,16 +788,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="6" selection-start="7624" selection-end="7624" vertical-scroll-proportion="0.0" vertical-offset="3907" max-vertical-offset="4505">
+        <state line="247" column="33" selection-start="7801" selection-end="7801" vertical-scroll-proportion="0.0" vertical-offset="3893" max-vertical-offset="4522">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1083" column="0" selection-start="42861" selection-end="42861" vertical-scroll-proportion="0.0" vertical-offset="17090" max-vertical-offset="82008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DetectiveNotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="67" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="1700">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1485#1493#0" expanded="true" />
+            <element signature="e#1836#1844#0" expanded="true" />
+            <element signature="e#2184#2192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClueGameRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="189" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClueGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="693" selection-end="693" vertical-scroll-proportion="0.53177255" vertical-offset="107" max-vertical-offset="5117">
+        <state line="308" column="1" selection-start="9323" selection-end="9323" vertical-scroll-proportion="0.6020067" vertical-offset="4655" max-vertical-offset="5253">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
